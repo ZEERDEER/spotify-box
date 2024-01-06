@@ -2,7 +2,7 @@ name: Update gist with latest songs
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/1 * * * *"
+    - cron: "0 0 * * *"
 jobs:
   spotify-box:
     runs-on: ubuntu-latest
